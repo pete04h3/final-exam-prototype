@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  svg{
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    transform: scale(0.4);
+  }
+
+  .hide{
+      display: none;
+  }
+
+  .show{
+      display: block;
+  }
+
+  .checkmark-icon{
+    transform: scale(0.8);
+  }
+
+  @media screen and (max-width: 500px) {
+  .checkmark-icon {
+    transform: scale(0.5);
+}
+}

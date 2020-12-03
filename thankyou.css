@@ -1,0 +1,16 @@
+.showcase-statumanu-icp-prototype-image img {
+    width: 400px;
+    height: 370px;
+    transform: scale(0.8);
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+
+.showcase-statumanu-icp-prototype-image img {
+    width: 400px;
+    height: 370px;
+    transform: scale(0.3);
+    display: flex;
+}
+}

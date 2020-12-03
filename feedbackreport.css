@@ -1,0 +1,37 @@
+#showcase {
+    height: 500px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.feedback-report-image{
+width: 300px;
+}
+
+.statumanu-feedback-report-img {
+
+width: 100%;
+transform: scale(2.5);
+position: relative;
+top: -7rem;
+}
+
+
+@media screen and (max-width: 500px) {
+
+.statumanu-feedback-report-img {
+    width: 100%;
+
+    transform: scale(1.6);
+    position: relative;
+    top: -7rem;
+}
+
+}
